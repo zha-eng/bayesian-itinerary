@@ -12,7 +12,7 @@
 
 Travel planning is an inference problem.
 
-Every recommendation system faces the same dirty secret: it doesn't really know what you want. It guesses from proxies — past clicks, star ratings, vague budget signals. Most systems pretend that uncertainty doesn't exist.
+Recommendation systems don't really know what you want. It guesses from proxies — past clicks, star ratings, vague budget signals. Most systems pretend that uncertainty doesn't exist.
 
 We didn't. Instead of a single "best" answer, we built a system that **models preference uncertainty explicitly** using Bayesian inference — so the itineraries it produces are calibrated, diverse, and honest about what they don't know.
 
